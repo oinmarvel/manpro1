@@ -1,0 +1,115 @@
+/* ====== GLOBAL ====== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+}
+
+header {
+    background: #ff7043;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ====== NAVIGATION ====== */
+nav {
+    background: #e64a19;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+    max-width: 1000px;
+    margin: 25px auto;
+    background: white;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #e64a19;
+    border-left: 5px solid #ff7043;
+    padding-left: 10px;
+}
+
+/* ====== CARD PAKET ====== */
+.paket {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+    background: #fff;
+}
+
+.paket:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+
+.paket h3 {
+    margin: 0 0 5px;
+    color: #d84315;
+}
+
+.paket p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* ====== BUTTON ====== */
+.btn {
+    display: inline-block;
+    background: #ff7043;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #ff5722;
+    box-shadow: 0 4px 10px rgba(255,87,34,0.3);
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background: #e64a19;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 14px;
+}
